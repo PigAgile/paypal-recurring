@@ -15,7 +15,7 @@ module PayPal
 
     ENDPOINTS = {
        :sandbox => {
-         :api  => "https://api-3t.sandbox.paypal.com/nvp",
+         :api  => "api.sandbox.paypal.com",
          :site => "https://www.sandbox.paypal.com/cgi-bin/webscr"
        },
        :production => {
